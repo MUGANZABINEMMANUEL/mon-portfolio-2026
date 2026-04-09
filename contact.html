@@ -25,16 +25,33 @@
     </head>
     <main>
           <h1>voici mes contact</h1>
-    </main>
-    <footer>
-          <p>&copy;2026 emmanuel. Tous droits reserves</p>
-          <p>
-              <a href="">LinkenIN</a>
-              <a href="">Github</a>
-              <a href="">X</a>
-          </p>
-          <div class="Social-icons">
-          </div>
-    </footer>
-</body>
-</html>
+    <main>
+    <section class="contact-container">
+        <h1>Contactez-moi</h1>
+        
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Mes coordonnées</h3>
+                <p>📍 Basé à : <strong>Lubumbashi</strong></p>
+                <p>📞 Téléphone : <a href="tel:+243992299955">0992299955</a></p>
+                <div class="social-apps">
+                    <p>Retrouvez-moi aussi sur :</p>
+                    <span class="badge whatsapp">WhatsApp</span>
+                    <span class="badge telegram">Telegram</span>
+                </div>
+            </div>
+
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="nom">Nom complet</label>
+                    <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="tel">Téléphone</label>
+                    <input type="tel" id="tel" name="tel" placeholder="Votre numéro" required>
+                </div>
+                <button type="submit" class="btn-submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+</main>

@@ -3,37 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon portifolio</title>
-    <link rel="stylesheet" href="css/Style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com"crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto-Mono:ital,wgt@0,100..700&0family=Roboto:ital,wgt@0,100,..900&display=swap"rel="stylesheet">
+    <title>mon portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 <body>
-     <head>
+    <header>
         <div>
-            <a href="">Mon portfolio</a>
+            <a href="">mon portfolio</a>
         </div>
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="projet.html"class="active">projet</a></li>
-                <li><a href="passions.html">passion</a></li>
-                <li><a href="divertissement.html">divertisement</a></li>
-                <li><a href="contact.html" class="active">contact</a></li>
+                <li><a href="projets.html"class="active">Projets</a></li>
+                <li><a href="passions.html">Passions</a></li>
+                <li><a href="divertissement.html">Divertissement</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
-        </section>
-    <main>
-         <h1>voici mes projets</h1>
-    </main>
-    <footer>
-          <p>&copy;2026 emmanuel. Tous droits reserves</p>
-          <p>
-              <a href="">LinkenIN</a>
-              <a href="">Github</a>
-              <a href="">X</a>
-          </p>
-          <div class="Social-icons">
+        </nav>
+    </header>
+<main>
+        <section class="projets">
+        <h1>Mes Réalisations</h1>
+        <div class="cards">
+            <div class="card">
+           <img src="Images/montrant-panier-chariot-shopping-ligne-signe-graphique_53876-133967.jpg" alt="E-commerce.webp" width="300">
+          <h3>Site E-commerce</h3>
+          <p>Une boutique en ligne complète développée avec HTML, CSS et JavaScript pur.</p>
+          <div class="tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JS</span>
           </div>
-    </footer>
+          <div class="link">
+            <a href="#"><i class="fab fa-github -code"></i> Code</a>
+            <a href="#"><i class="fas fa-external-link-alt"></i> Démo</a>
+          </div>
+        </div>
+        <div class="card">
+            <img src="Images/Mf9e870eb1acfd57c9bf1294a0481824d1729576481691.webp" alt="gestion de taches.webp" width="300">
+            <h3>Gestionnaire de taches</h3>
+            <p>Application Web pour organiser ses projets quotidiens avec stockage local</p>
+            <div class="tags">
+            <span>Python</span>
+            <span>Flask</span>
+            </div>
+            <div class="link">
+                <a href="#"><i class="fab fa-github -code"></i>Code</a>
+                <a href="#"><i class="fas fa-external-link-alt"></i>Démo</a>
+            </div>
+        </div> 
+        <div class="card">
+            <img src="Images/blogging-concept-web-blog-medias-sociaux-reseau-information-aise_31965-661708.jpg" alt="blog personnel.webp" width="300">
+            <h3>Blog personnel</h3>
+            <p>Projet en cours de migration vers Laravel pour apprendre le backend</p>
+            <div class="tags">
+            <span>PHP</span>
+            <span>Laravel</span>
+            </div>
+        <div class="link">
+            <a href="#"><i class="fab fa-github -code"></i>Code</a>
+            <a href="#"><i class="fa fa-clock"></i>Bientot</a>
+        </div>
+        </div>
+        <div class="card">
+            <img src="Images/PerformanceGT1.png"dashboard.webp" width="300">
+            <h3>dashboard d'Analyse</h3>
+            <p>Visualisation de données dynamiques avec Python et la bibliothèque Matplotib.</p>
+            <div class="tags">
+            <span>Python</span>
+            <span>Data</span>
+            </div>
+        <div class="link">
+            <a href="#"><i class="fab fa-github -code"></i>Code</a>
+            <a href="#"><i class="fas fa-external-link-alt"></i>Démo</a>
+        </div>
+        </div>
+        <div class="card">
+            <img src="Images/main.png" alt="meteo.webp" width="300">
+            <h3>Application météo</h3>
+            <p>Une application utilisant une API en temps réel pour afficher la météo mondiale</p>
+            <div class="tags">
+            <span>JavaScript</span>
+            <span>API</span>
+            </div>
+            <div class="link">
+                <a href="#"><i class="fab fa-github -code"></i>Code</a>
+                <a href="#"><i class="fas fa-external-link-alt"></i>Démo</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Images/original-2f6ca7db3c49d72b5304be01d797227b.png" alt="maquette.webp" width="300">
+            <H3>Maquette Mobile UI</H3>
+            <p>Conception d'une interface utilisateur moderne pour une application de fitness.</p>
+            <div class="tags">
+            <span>Figma</span>
+            <span>Design</span>
+            </div>
+            <div class="link">
+                <a href="#"><i class="fab fa-figma -code"></i>Design</a>
+                <a href="#"><i class="fa fa-eye"></i>Aperçu</a>
+            </div>
+        </div>
+        </div>
+        </section>
+     </main>
+<footer>
+
+<p>© 2026 Emmanuel.Tous droits réservés.</p>
+<p>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+</p>
+</footer>
 </body>
 </html>
+</main>
+   
